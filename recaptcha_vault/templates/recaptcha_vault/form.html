@@ -1,0 +1,7 @@
+{% extends "recaptcha_vault/base.html" %}
+{% block recaptcha_vault_form %}
+<form action="/contact/" method="post">{% csrf_token %}
+{% include "recaptcha_vault/form_snippet.html" %}
+<input type="submit" value="Submit" />
+</form>
+{% endblock %}
