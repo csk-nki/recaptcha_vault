@@ -3,7 +3,7 @@ DEBUG = True
 
 # Using random here for the demo, but that will change the SECRET_KEY for each
 # run. For deployments consider an unique static string.
-# See https://docs.djangoproject.com/en/1.5/ref/settings/#std:setting-SECRET_KEY
+# See https://docs.djangoproject.com/en/1.8/ref/settings/#std:setting-SECRET_KEY
 import random, string  # pylint: disable=W0402
 SECRET_KEY = ''.join([random.choice(string.printable) for i in range(64)])
 
