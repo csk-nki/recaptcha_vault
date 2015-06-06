@@ -1,6 +1,11 @@
 ===============
 recaptcha_vault
 ===============
+
+.. image:: https://landscape.io/github/cskarby/recaptcha_vault/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/cskarby/recaptcha_vault/master
+   :alt: Code Health
+
 Introduction
 ------------
 A public document vault for django featuring protection againt enumeration
